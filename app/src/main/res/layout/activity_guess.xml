@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ваше число больше, меньше или равно?"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/greaterButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Больше" />
+
+        <Button
+            android:id="@+id/lessButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Меньше" />
+
+        <Button
+            android:id="@+id/correctButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Угадал" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
